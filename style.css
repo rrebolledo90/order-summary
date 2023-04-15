@@ -5,8 +5,71 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: red-hat;
+  src: url(RedHatDisplay-Black.ttf);
+}
+@font-face {
+  font-family: normal-red;
+  src: url(RedHatDisplay-Medium.ttf);
+}
+@font-face {
+  font-family: bold-red;
+  src: url(RedHatDisplay-Bold.ttf);
+}
+
 body {
   background-color: #dfe6fb;
   background-image: url(pattern-background-desktop.svg);
   background-repeat: repeat-x;
+  min-height: 100vh;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(pattern-background-desktop.svg);
+    background-color: blue;
+  }
+}
+/* Containers */
+
+.plan-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: center;
+  background-color: #dfe6fb;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Element styles */
+
+.main-heading {
+  font-family: red-hat, sans-serif;
+}
+.plan-discription,
+.price,
+.cancel {
+  font-family: normal-red, sans-serif;
+  color: #717fa6;
+}
+.plan-type {
+  font-family: bold-red, sans-serif;
+}
+.icon {
+  order: -1;
+}
+
+.btn {
+  background-color: #1e1fcd;
+  color: #fff;
+  font-family: bold-red, sans-serif;
 }
