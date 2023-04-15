@@ -1,0 +1,12 @@
+/* colros #231F20,  #FFFFFF, #698DFF, #717FA6, #CD7DF3, #382AE1
+            #1E1FCD, #1F2E55, #75ECCA, #DFE6FB, #F7F9FF */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dfe6fb;
+  background-image: url(pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+}
