@@ -132,6 +132,10 @@ a:active {
 .cancel {
   margin-bottom: 1.6875rem;
 }
+.cancel:hover {
+  cursor: pointer;
+  color: #dda0dd;
+}
 
 @media screen and (max-width: 600px) {
   .mobile-container {
