@@ -68,9 +68,9 @@ body {
 }
 
 .main-heading {
-  font-family: red-hat, sans-serif;
+  font-family: bold-red, sans-serif;
   text-align: center;
-  margin-bottom: 2.1rem;
+  margin-bottom: 1rem;
 }
 .plan-discription {
   line-height: 1.5;
