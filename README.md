@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/rrebolledo90/order-summary.git)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://rrebolledo90.github.io/order-summary/)
 
 ## My process
 
